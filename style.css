@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  background: #064d3b;
+  font-family: "Graduate", serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 1440px;
+  margin: auto;
+}
+.heading {
+  background-color: #262626;
+  padding: 2.5rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  margin: auto;
+}
+.container h1{
+  color: white;
+  padding: 30px;
+}
+.container h3{
+  font-size: 80px;
+  background-color: black;
+  text-align: center;
+  color: #f7546e;
+  padding: 2.5rem;
+}
+
+.left-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.right-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.reset-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.btns{
+  display: flex;
+  gap: 10px;
+  padding: 0 10px;
+}
+.btns button{
+  background-color: #029c73;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.new-game{
+padding: 16px 32px;
+color: #ffffff;
+border: none;
+border-radius: 8px;
+background-color: #6de8b5;
+margin-bottom: 100px;
+cursor: pointer;
+}
